@@ -1,22 +1,22 @@
 ### End to end messaging system like WhatsApp
 Your task will be to design an end to end messaging system like WhatsApp with the below functional-
-ities:
-• Multiclient chat application that has a server component and 4 clients [atleast].
-• The system should support the signup and sign in feature. [error message with wrong credentials].
+ities:<br>
+• Multiclient chat application that has a server component and 4 clients [atleast].<br>
+• The system should support the signup and sign in feature. [error message with wrong credentials].<br>
 • User can send message to other user [p2p message] [ SEND command] [<SEND> <USERNAME>
-<MESSAGE>]
-• Each user can join multiple chat rooms (groups) at a time.
+<MESSAGE>]<br>
+• Each user can join multiple chat rooms (groups) at a time.<br>
 • Each user can list all the groups. [LIST Command] [show all group and number of participants in
-each group]
+each group]<br>
 • Each user can join a group [JOIN command]. If the group does not exist then the first create it then
-joins it.
-• Each user can create a group [CREATE command].
-• If one user sends a message to a group it should be sent to all members of that group.
+joins it.<br>
+• Each user can create a group [CREATE command].<br>
+• If one user sends a message to a group it should be sent to all members of that group.<br>
 • The message is encrypted using Tripple DES (3DES) and the key will be Diffie–Hellman key type
-exchanged between clients.
-• For each group make one key (random nonce).
-• Message can be any type, for example, text, images, video, and audio.
-Note: The one time Diffie–Hellman type key must be include a prive key (for instance roll nos.).
+exchanged between clients.<br>
+• For each group make one key (random nonce).<br>
+• Message can be any type, for example, text, images, video, and audio.<br>
+Note: The one time Diffie–Hellman type key must be include a prive key (for instance roll nos.).<br>
 
 **For End to end encryption, we have done following:**
 **1) For direct peer to peer**
